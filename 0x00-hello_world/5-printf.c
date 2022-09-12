@@ -1,18 +1,23 @@
 #include <stdio.h>
-#include <string.h>
+
 /**
- * main-entry point
  *
- * The string is printing with the printf function
+ * main - entry point
  *
- * Return: (0) success
  *
- * int main(void)
  *
- * {
+ * the string is printed with the printf function
  *
- * 	printf('with proper grammar, but the outcome is a piece of art,'
+* Return: (0) Success
  *
- * 	return (0) 
- *
- * 	}
+ *      */
+
+int main(void)
+
+{
+
+		printf("with proper grammar, but the outcome is a piece of art,\n");
+
+			return (0);
+
+}
