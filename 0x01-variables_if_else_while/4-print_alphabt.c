@@ -15,7 +15,7 @@ int main(void)
 	{
 											alph++;
 	}
-	else if (alph++; == 'q')
+	else if (ph++; == 'q')
 	{
 		alph++;
 	}
@@ -23,28 +23,10 @@ int main(void)
 		{
 			putchar(alph);
 			alph++;
-		}
+	}
 	}
 	putchar('\n');
 	return (0);
 }
 
-																				}
 
-													else
-
-																{
-
-																				putchar(alph);
-
-																							alph++;
-
-																									}
-
-														}
-
-					putchar('\n');
-
-						return (0);
-
-}
