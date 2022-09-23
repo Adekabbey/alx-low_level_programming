@@ -1,31 +1,18 @@
+#include "holberton.h"
 /**
- * _strcmp - compares two strings' lengths
- * @s1: first comparison string
- * @s2: second comparison string
- *
- * Return: 3 (greater), -3 (lesser), 0 (equal)
+ * _strcmp - a function that compares two strings
+ * @s1: input one
+ * @s2: input two
+ * Return: Always 0 (Success)
  */
 int _strcmp(char *s1, char *s2)
 {
-		int i, j, k;
+		int i;
 
-		i = 0;
-		while (*s1 != '\0')
+		for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
 		{
-			s1++;
-			i++;
+		if (s1[i] != s2[i])
+		return (s1[i] - s2[i]);
 		}
-		j = 0;
-		while (*s2 != '\0')
-		{
-			s2++;
-			j++;
-		}
-		if (i > j)
-			k = 3;
-		else if (i < j)
-			k = -3;
-		else
-		k = 0;
-		return (k);
+		return (0);
 }
